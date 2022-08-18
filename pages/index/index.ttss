@@ -1,0 +1,89 @@
+page{
+    /* background: -webkit-radial-gradient(closest-side, rgba(120,200,255,0.04), rgba(0,0,0,0)); */
+    /* background-color: black; */
+    background-image: url('https://mingtongct.com/images/ai/bg.jpg');
+    background-position: center;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+}
+
+.image-view {
+    position:absolute;
+    top:30%;
+    left:38%;
+    z-index:1;
+    height:30%;
+}
+
+.images{
+    height:200px !important;
+    width:100px !important;
+}
+
+.image-head {
+    position:absolute;
+    top:30%;
+    left:38%;
+    z-index:10;
+}
+
+.image-heart {
+    position:absolute;
+    top:30%;
+    left:38%;
+    z-index:10;
+}
+
+.image-core {
+    position:absolute;
+    top:30%;
+    left:38%;
+    z-index:10;
+}
+
+.image-legs {
+    position:absolute;
+    top:30%;
+    left:38%;
+    z-index:10;
+}
+
+.image-feet {
+    position:absolute;
+    top:30%;
+    left:38%;
+    z-index:10;
+}
+
+.circle{
+    height:50px;
+    width:50px;
+}
+
+.circle-tem{
+    position: absolute;
+    left:35%;
+    top:35%;
+}
+
+.circle-face{
+    position: absolute;
+    right:35%;
+    top:5%;
+}
+
+.circle-age{
+    position: absolute;
+    left:35%;
+    top:60%;
+}
+
+.circle-shape{
+    position: absolute;
+    right:35%;
+    top:50%;
+}
+
+.text-blue{
+    color:blue
+}

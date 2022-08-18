@@ -1,0 +1,12 @@
+{
+    "setting": {
+        "urlCheck": true,
+        "es6": true,
+        "postcss": true,
+        "minified": true,
+        "newFeature": true,
+        "autoCompile": true
+    },
+    "appid": "tt4c9b3a26d3a524b901",
+    "projectname": "AI测测测"
+}

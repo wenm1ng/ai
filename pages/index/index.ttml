@@ -1,0 +1,108 @@
+<view
+    class="image-view"
+    hover-class="{{hover-class}}"
+    hover-stop-propagation="{{hover-stop-propagation}}"
+    hover-start-time="{{hover-start-time}}"
+    hover-stay-time="{{hover-stay-time}}"
+>
+<image
+    class="images"
+    src="{{url + 'images/ai/8-1x.png'}}"
+    mode="widthFix"
+    binderror="binderror"
+    bindload="bindload"
+>
+
+</view>
+<view>
+    <image hidden="{{part !== 0}}"
+        class="image-head images"
+        src="{{url + 'images/ai/brain.png'}}"
+        mode="widthFix"
+        
+        binderror="binderror"
+        bindload="bindload"
+    >
+</view>
+<view>
+    <image  hidden="{{part !== 1}}"
+        class="image-heart images"
+        src="{{url + 'images/ai/heart.png'}}"
+        mode="widthFix"
+        
+        binderror="binderror"
+        bindload="bindload"
+    >
+</view>
+<view>
+    <image  hidden="{{part !== 2}}"
+        class="image-core images"
+        src="{{url + 'images/ai/core.png'}}"
+        mode="widthFix"
+        
+        binderror="binderror"
+        bindload="bindload"
+    >
+</view>
+<view>
+    <image  hidden="{{part !== 3}}"
+        class="image-legs images"
+        src="{{url + 'images/ai/legs.png'}}"
+        mode="widthFix"
+        
+        binderror="binderror"
+        bindload="bindload"
+    >
+</view>
+<view>
+    <image  hidden="{{part !== 4}}"
+        class="image-feet images"
+        src="{{url + 'images/ai/feet.png'}}"
+        mode="widthFix"
+        
+        binderror="binderror"
+        bindload="bindload"
+    >
+
+</view>
+
+<!-- 气质 年龄 脸型 颜值 -->
+<!-- <view>
+    <image class="circle circle-tem"
+        src="{{url + 'images/ai/circle.gif'}}"
+        mode="{{mode}}"
+        binderror="binderror"
+        bindload="bindload"
+    >
+    <text class="text-blue circle-tem">气质</text>
+</view>
+
+<view>
+    <image class="circle circle-face"
+        src="{{url + 'images/ai/circle.gif'}}"
+        mode="{{mode}}"
+        binderror="binderror"
+        bindload="bindload"
+    >
+    <text class="text-blue circle-face">颜值</text>
+</view>
+
+<view>
+    <image class="circle circle-age"
+        src="{{url + 'images/ai/circle.gif'}}"
+        mode="{{mode}}"
+        binderror="binderror"
+        bindload="bindload"
+    >
+    <text class="text-blue circle-age">年龄</text>
+</view>
+
+<view>
+    <image class="circle circle-shape"
+        src="{{url + 'images/ai/circle.gif'}}"
+        mode="{{mode}}"
+        binderror="binderror"
+        bindload="bindload"
+    >
+    <text class="text-blue circle-shape">脸型</text>
+</view> -->
